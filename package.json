@@ -1,24 +1,24 @@
 {
-  "name": "clockotron",
-  "version": "1.0.0",
-  "keywords": [
-    "Clock", "Timer", "Vmix"
-  ],
-  "manufacturer": "LEAD LED",
-  "product": "Clockotron",
-  "shortname": "clockotron",
-  "description": "Send clock and timer data directly to Vmix Text Inputs",
-  "main": "index.js",
-  "author": "Devon Lamond <devon@leadled.io>",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^6.1.0"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "leadled-clockotron",
+	"version": "1.0.1",
+	"keywords": [
+		"Vmix, Clock, Timer"
+	],
+	"manufacturer": "LEAD LED",
+	"product": "Clockotron",
+	"shortname": "Clockotron",
+	"description": "Send Clock and Timer values directly to vMix Text Inputs",
+	"main": "index.js",
+	"author": "Devon Lamond <devon@leadled.io>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^6.1.0"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
 }
