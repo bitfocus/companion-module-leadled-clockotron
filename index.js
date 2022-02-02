@@ -35,7 +35,7 @@ class instance extends instance_skel {
 				this.debug(e.message)
 				this.status(this.STATUS_WARNING, 'No Clockotron at this Address')
 			} else {
-				this.system.emit('instance_actions', this.id, this.getActions())
+				this.setActions(this.getActions())
 
 				this.status(this.STATUS_OK, 'OK')
 			}
